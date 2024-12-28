@@ -8,23 +8,28 @@ import { IoIosLogOut } from "react-icons/io";
 
 const SideBar =() => {
    return (
-      <main className="w-[6dvw] max-h-dvh bg-main">
-        <div className="text-blue-400 text-xl">
+      <main className="flex flex-col space-y-5 w-[5dvw] max-h-dvh bg-main mr-0 p-4 text-xl fixed">
+        <div className="text-blue-400 ">
           logo
         </div>
 
-        <div className="">
+        <div className="space-y-7 pt-11">
           <FaHome className=""/>
-          <FaCar />
-          <GiFamilyHouse />
-          <GrFavorite />
-          <MdHistory />
-          <FcSettings />
+          <FaCar className=""/>
+          <GiFamilyHouse className=""/>
+          <GrFavorite className=""/>
+         
         </div>
 
-        <div>
-          <IoIosLogOut />
+        <div className="pt-7 space-y-7 text-xl">
+        <MdHistory className=""/>
+        <FcSettings className=""/>
         </div>
+
+        <div className="pt-40 text-xl">
+          <IoIosLogOut className=""/>
+        </div>
+
       </main>
    )
  }
