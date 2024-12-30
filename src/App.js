@@ -2,14 +2,16 @@
 import './App.css';
 import SideBar from './Components/SideBar';
 import HomePage from './Components/HomePage';
+import Car from './Components/Car';
 
 
 function App() {
   return (
-    <div className="bg-main w-dvh h-dvh">
-      <div className="flex overflow-x-hidden">
-         <SideBar />
+    <div className="bg-main w-dvh h-dvh flex">
+       <SideBar />
+      <div className="flex flex-col overflow-x-hidden">
          <HomePage />
+         {/* <Car /> */}
       </div>
     </div>
   );

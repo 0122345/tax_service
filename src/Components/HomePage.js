@@ -218,8 +218,8 @@ const HomePage = () => {
               <h3 className="text-2xl font-bold mb-6">Contact Us</h3>
               <div className="space-y-4">
                 <p className="flex items-center"><FaMapMarkerAlt className="mr-2" /> 123 Car Street, Kk 120 kg</p>
-                <p className="flex items-center"><FaPhone className="mr-2" /> +250 790 010 0861</p>
-                <p className="flex items-center"><FaEnvelope className="mr-2" /> ntwarifiacre043@gmail.com</p>
+                <p className="flex items-center"><FaPhone className="mr-2" />+250 7847 57044</p>
+                <p className="flex items-center"><FaEnvelope className="mr-2" />franckniyonsaba@gmail.com</p>
               </div>
             </motion.div>
             <div className="h-[420px] rounded-xl">
