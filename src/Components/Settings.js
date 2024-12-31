@@ -18,13 +18,9 @@ const Settings = () => {
       <main className="">
           <div className="">
               <h1 className=""><u>Settings</u></h1>
-
-
-              
               <div id="profile_sett" className="">
                 Edit Profile
-                 
-                </div>
+              </div>
 
               <div className="">
               <label className="block text-gray-700">Theme</label>
