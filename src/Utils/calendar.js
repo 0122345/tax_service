@@ -13,7 +13,20 @@ const Calend = () => {
        animate={{opacity: 1}}
        className='p-4'
      >
+      
+      <Calendar
+        onchange={setValue}
+        value={value}
+        className="rounded-xl border-none shadow-lg"
+        tileClassName={({ date, view}) =>
+           view === 'month' && date.getDay() === 0 ? 'text-red-500' : null
+        }
 
+        tileContent={({date, view}) =>
+           view === 'month' && date.getDay() < 7 ? 
+          <div className="dot bg-blue-500 w-1 h-1 rounded-full mx-auto mt-1"></div> : null
+        }
+      />
      </motion.div>
     )
 }
