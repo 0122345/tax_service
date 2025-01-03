@@ -50,6 +50,13 @@ const Car = () => {
             <p className="text-gray-600">1.5 EcoBlue MT Titanium X</p>
             <p className="text-gray-800 font-semibold">$24.00 / hour</p>
           </div>
+           
+          <div className="bg-white p-4 mb-4 rounded-lg shadow-md">
+            <img src='/assets/car5.jpg' alt="Car" className="w-full h-32 object-cover rounded-md" />
+            <h3 className="text-xl font-semibold mt-2">Ford Focus</h3>
+            <p className="text-gray-600">1.5 EcoBlue MT Titanium X</p>
+            <p className="text-gray-800 font-semibold">$24.00 / hour</p>
+          </div>
           {/* Add more vehicle cards as needed */}
         </div>
       </motion.div>

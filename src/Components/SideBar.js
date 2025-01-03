@@ -14,7 +14,7 @@ const SideBar =() => {
         </div>
 
         <div className="space-y-7 pt-11">
-          <FaHome className=""/>
+          <FaHome className="active:text-blue-600 hover:text-green-500"/>
           <FaCar className=""/>
           <GiFamilyHouse className=""/>
           <GrFavorite className=""/>
