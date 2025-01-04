@@ -4,8 +4,12 @@ import { motion } from 'framer-motion'
 import 'react-calendar/dist/calendar.css'
 
 
+//TODO: BOoking to be done here for sure
+
+
 const Calend = () => {
     const [value, setValue] = useState(new Date());
+    const [book, setBook] = useState(false);
 
     return (
      <motion.div
